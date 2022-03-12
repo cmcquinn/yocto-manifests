@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/Xilinx" name="xilinx"/>
+  <remote fetch="https://github.com/kleinai" name="kleinai"/>
   
   <default sync-j="4"/>
   
@@ -25,4 +26,5 @@
   <project name="yocto-scripts" path="sources/yocto-scripts" remote="xilinx" revision="484bd017441f0d895f7d24a82192acdf497408a8" upstream="rel-v2021.2">
     <copyfile dest="setupsdk" src="setupsdk"/>
   </project>
+  <project name="meta-snickerdoodle" path="sources/meta-snickerdoodle" remote="kleinai" revision="459928305cab68e08bb3ac28dbb9f37b602bef25" upstream="master"/>
 </manifest>
